@@ -25,5 +25,5 @@ Route::get('/user/{nama}', function ($nama) {
 });
 
 Route::get('/nilai/{angka}', function ($angka) {
-    return "Nilai kamu: " . $angka;
+    return "Nilai praktikum: " . $angka;
 });
