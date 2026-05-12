@@ -19,7 +19,7 @@ Route::get('/contact', function () {
     return "Halaman Contact";
 });
 
-// 2 route dengan parameter
+
 Route::get('/user/{nama}', function ($nama) {
     return "Halo " . $nama;
 });
