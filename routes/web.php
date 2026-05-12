@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// 3 route biasa
+
 Route::get('/about', function () {
     return "Halaman About";
 });
